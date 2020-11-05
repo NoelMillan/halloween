@@ -1,0 +1,46 @@
+@font-face {
+    font-family: halloween1;
+    src: url('tipografias/ShallowGraveBB.ttf');
+}
+body {background-color: black;}
+#container {position:relative; /* EL CONTENEDOR, RELATIVO */
+            background-image:url('../imagenes/wallpaper.png');
+            margin:auto;
+            width:1306px; /* NO ES RESPONSIVE, OJO */
+            height:638px; /* solo es un ejercicio por diversión */
+            }
+#titulo {position:absolute; /* EL CONTENIDO, ABSOLUTO */
+         top:20px;
+         left:500px;
+         font-family:halloween1;
+         font-size: 3em;
+         color:orange;
+         text-shadow:1px 1px 1px black;
+}
+#advertencia {position:absolute;
+              top:130px;
+              left:300px;
+              font-size:2em;
+              color:red;
+}
+#bats {position: absolute;
+       top:100px;
+       left:150px;
+       visibility:hidden;}
+#calabaza {position:absolute;
+           top:400px;
+           left:80px;
+           width:100px;
+           height:100px;
+           cursor:pointer;
+           /*border:1px solid white;*/}
+#lapida {position:absolute;
+        width:120px;
+        height:150px;
+        top:380px;
+        left:490px;
+        cursor:pointer;}
+#zombie {position:absolute;
+        top:348px;
+        visibility:hidden;
+        cursor:crosshair;}
